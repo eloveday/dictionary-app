@@ -1,7 +1,7 @@
 import React from "react";
+import Synonym from "./Synonym.js";
 
 export default function Meaning(props) {
-  console.log(props.meaning);
   return (
     <div>
       <strong>{props.meaning.partOfSpeech}</strong>
@@ -13,6 +13,8 @@ export default function Meaning(props) {
             {definition.definition}
             <br />
             <em>{definition.example}</em>
+            <br />
+            <Synonym synonym={definition.synonyms} />
           </div>
         );
       })}
