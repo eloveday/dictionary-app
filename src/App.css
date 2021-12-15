@@ -1,3 +1,5 @@
+@import url("https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;500&display=swap");
+
 .dictionaryForm {
   text-align: center;
 }
@@ -16,6 +18,7 @@
 }
 
 section {
+  font-family: "Playfair Display", serif;
   position: relative;
   top: 30px;
   border: 1px solid #dcd6f7;
