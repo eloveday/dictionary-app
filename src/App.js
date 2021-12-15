@@ -7,8 +7,10 @@ export default function App() {
     <div className="App">
       <Dictionary />
       <br />
-      Coded by{" "}
-      <a href="https://github.com/eloveday/dictionary-app">Emily Loveday</a>
+      <div className="github">
+        Coded by{" "}
+        <a href="https://github.com/eloveday/dictionary-app">Emily Loveday</a>
+      </div>
     </div>
   );
 }

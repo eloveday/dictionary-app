@@ -4,4 +4,32 @@
 
 .results {
   text-align: center;
+  background-color: #dcd6f7;
+}
+
+.App {
+  background: linear-gradient(120deg, #a1c4fd 0%, #c2e9fb 100%);
+}
+
+.github {
+  text-align: center;
+}
+
+section {
+  position: relative;
+  top: 30px;
+  border: 1px solid #dcd6f7;
+  margin: 0 auto;
+  margin-bottom: 30px;
+
+  padding: 40px;
+  border-radius: 10px;
+  max-width: 60%;
+  background-color: white;
+  color: #424874;
+  box-shadow: 12px 12px 20px 1px #a6b1e1;
+}
+
+section h1 {
+  font-size: 25px;
 }
