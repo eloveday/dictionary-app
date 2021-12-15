@@ -1,0 +1,11 @@
+.synonym {
+  margin-top: 10px;
+  margin-bottom: 15px;
+  padding: 0;
+}
+
+.synonym .item {
+  display: inline-block;
+  font-size: 13px;
+  padding-right: 10px;
+}
